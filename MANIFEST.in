@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include spherapp14 *.css
+recursive-include spherapp14 *.csv
+recursive-include spherapp14 *.html
+recursive-include spherapp14 *.ico
+recursive-include spherapp14 *.js
+recursive-include spherapp14 *.json
+recursive-include spherapp14 *.md
+recursive-include spherapp14 *.png
+recursive-include spherapp14 *.py
+recursive-include spherapp14 *.svg
+recursive-include spherapp14 *.txt
+recursive-exclude spherapp14 *.pyc
