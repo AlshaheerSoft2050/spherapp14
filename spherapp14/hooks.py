@@ -6,10 +6,12 @@ app_publisher = "shaheer"
 app_description = "default_popup"
 app_email = "shahir4soft@gmail.com "
 app_license = "MIT"
-
+fixtures = ["Custom Field"]
 # Includes in <head>
 # ------------------
-
+app_include_js = [
+    "/assets/spherapp14/js/custom_script.js"
+]
 # include js, css files in header of desk.html
 # app_include_css = "/assets/spherapp14/css/spherapp14.css"
 # app_include_js = "/assets/spherapp14/js/spherapp14.js"
